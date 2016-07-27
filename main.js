@@ -96,8 +96,9 @@ function checkMath() {
 	if (answerEntered == correctAnswer) {
 		console.log("Awesome! You win!");//
 	} else {
-		console.log("Wrong. Correct answer is: " + correctSum + "");
+		console.log("Wrong. Correct answer is: " + correctAnswer + "");
 	}
 	
 	setTimeout(function(){ init(); }, 3000);
 }
+
